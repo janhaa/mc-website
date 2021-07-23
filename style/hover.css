@@ -1,0 +1,67 @@
+.fond{position:absolute;padding-top:85px;top:0;left:0; right:0;bottom:0;
+    background-color:#65C6BB;}
+  
+  .tri-image-item
+  {
+    display:table-cell;
+    background-size:cover;
+    overflow: hidden;
+    position: relative;
+  }
+  .tri-image-item .shadow_swhow_mini
+  {
+    /* background-color:rgba(19,30,33,0.4); */
+    position: absolute;
+    z-index: 1000;
+    top:0;left:0;right:0;bottom:0;
+    
+  }
+  .tri-image-item:hover .shadow_swhow_mini
+  {
+    background-color:rgba(16,23,41,0);
+  }
+  .tri-image-item .tri-image-item-content
+  {
+    position: absolute;
+    font-family: 'Frutiger Neue LT Book';
+    padding: 1rem 20% 0 5%;
+    z-index: 1000;
+    font-size: 1rem;
+    top:0%;
+    left:-100%;
+    color:#ffffff;
+    font-weight: 300;
+    width: 80%;
+    height: 100%;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    transition: all 0.7s;
+  
+  }
+  .tri-image-item:hover .tri-image-item-content
+  {
+    background-color:rgba(0,84,159,0.6);
+    left:0px;
+    
+  }
+  .tri-image-item .deroul_soustitre
+  {
+    position: absolute;
+    font-family: 'Roboto';
+    padding: 5px;
+    z-index: 1000;
+    top:60%;right:-85%;
+    margin-top: 25px;
+    color:#ffffff;
+    font-weight: 300;
+    font-size: 11px; width: 80%;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    transition: all 0.7s;
+  }
+  .tri-image-item:hover .deroul_soustitre
+  {
+    background-color:#417c74;right:0px;
+  }
