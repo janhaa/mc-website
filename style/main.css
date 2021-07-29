@@ -23,7 +23,7 @@ html {
 
 .brand {
   max-width: 90%;
-  min-width: 25rem;
+  min-width: 20rem;
 }
 
 .logo {
@@ -164,6 +164,7 @@ a:active {
 .joinjoinjoinjoin {
   margin-left: auto;
   margin-right: 1rem;
+  padding-bottom: 1rem;
 }
 
 .emphasize {
@@ -174,8 +175,9 @@ a:active {
 .join {
   font-family: "Frutiger Neue LT Extra Black";
   color: white;
-  font-size: 6rem;
+  font-size: 5.5rem;
   text-align: right;
+  margin-bottom: -1.1rem;
 }
 
 .tri-image {
@@ -208,6 +210,7 @@ a:active {
 
 .join-description > .description {
   font-family: "Frutiger Neue LT Black";
+  padding-top: 1rem;
 }
 
 .join-description > * {
