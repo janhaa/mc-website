@@ -7,10 +7,21 @@
     <link href="style/hamburgers.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="./style/fonts/style.css" />
     <link rel="stylesheet" type="text/css" href="./style/main.css" />
+    <link rel="stylesheet" href="node_modules/@splidejs/splide/dist/css/splide.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <script async>
+      // import Splide from '@splidejs/splide';
+      document.addEventListener( 'DOMContentLoaded', function () {
+		    new Splide( '.splide', {
+          autoWidth: true
+        } ).mount();
+	    });
+    </script>
+
     <title>Metropolitan Cities</title>
   </head>
   <body>
-    <div class="main-body full-height">
+    <div class="main-body full-height overflow-hidden">
       <div class="navigation-bar">
         <button class="hamburger hamburger--collapse" type="button">
           <span class="hamburger-box">
@@ -35,7 +46,115 @@
           /></a>
         </div>
       </div>
-      <div class="jumbo">WER SIMMA</div>
+      <div class="content">
+        <div class="header">
+          WHO WE<br />
+          ARE
+        </div>      
+        <div id="splide" class="splide">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide slide">
+                <div class="employee_presentation">
+                  <div class="employee_image_wrapper">
+                    <img class="employee_image bottom" src="assets/MIKA2136.JPG"/>
+                    <img class="employee_image top" src="assets/MIKA1953b.jpg"/>
+                  </div>
+                  <div>
+                    <div class="employee_name">Dr. Gerhard Gudergan</div>
+                    <div class="employee_description">Dr. Gerhard Gudergan hat Produktionstechnik an der
+                      RWTH Aachen studiert und anschließend zum Dr.-Ing. mit
+                      dem Schwerpunkten Organisation und Innovation promoviert. Er leitet seit 2005 den Bereich Dienstleistungsmanagement des FIR an der RWTH Aachen. Seit 2013 leitet er dort
+                      den Bereich Business Transformation. Gerhard Gudergan ist
+                      stv. Geschäftsführer des FIR an der RWTH Aachen und Geschäftsführer der Metropolitan Cities MC GmbH.
+                      In diesem Zusammenhang baut er die Initiative Metropolitan Cities auf dem Campus der RWTH Aachen auf.
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide slide">
+                <div class="employee_presentation">
+                  <div class="employee_image_wrapper">
+                    <img class="employee_image bottom" src="assets/MIKA0348.JPG"/>
+                    <img class="employee_image top" src="assets/MIKA0187b.JPG"/>
+                  </div>
+                  <div>
+                    <div class="employee_name">Alexandra Köther</div>
+                    <div class="employee_description">Beste Frau
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide slide">
+                <div class="employee_presentation">
+                  <div class="employee_image_wrapper"><img class="employee_image" src="assets/MIKA0187b.JPG"/>
+                  </div>
+                  <div>
+                    <div class="employee_name">Alexandra Köther</div>
+                    <div class="employee_description">Beste Frau
+                    </div>
+                  </div>
+                </div>
+              </li>
+                            <li class="splide__slide slide">
+                <div class="employee_presentation">
+                  <div class="employee_image_wrapper"><img class="employee_image" src="assets/MIKA0187b.JPG"/>
+                  </div>
+                  <div>
+                    <div class="employee_name">Alexandra Köther</div>
+                    <div class="employee_description">Beste Frau
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide slide">
+                <div class="employee_presentation">
+                  <div class="employee_image_wrapper"><img class="employee_image" src="assets/MIKA0187b.JPG"/>
+                  </div>
+                  <div>
+                    <div class="employee_name">Alexandra Köther</div>
+                    <div class="employee_description">Beste Frau
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide slide">
+                <div class="employee_presentation">
+                  <div class="employee_image_wrapper"><img class="employee_image" src="assets/MIKA0187b.JPG"/>
+                  </div>
+                  <div>
+                    <div class="employee_name">Alexandra Köther</div>
+                    <div class="employee_description">Beste Frau
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide slide">
+                <div class="employee_presentation">
+                  <div class="employee_image_wrapper"><img class="employee_image" src="assets/MIKA0187b.JPG"/>
+                  </div>
+                  <div>
+                    <div class="employee_name">Alexandra Köther</div>
+                    <div class="employee_description">Beste Frau
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="splide__slide slide">
+                <div class="employee_presentation">
+                  <div class="employee_image_wrapper"><img class="employee_image" src="assets/MIKA0187b.JPG"/>
+                  </div>
+                  <div>
+                    <div class="employee_name">Alexandra Köther</div>
+                    <div class="employee_description">Beste Frau
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

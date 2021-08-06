@@ -17,6 +17,94 @@ html {
   );
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.splide__track {
+  overflow: visible !important;
+  /* overflow-x: hidden !important; */
+}
+
+.employee_presentation {
+  width: 80rem;
+  height: 60vh;
+  /* background-color: white; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20rem;
+}
+
+.employee_name {
+    font-family: "Frutiger Neue LT Extra Black";
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+}
+
+.employee_image_wrapper {
+  width: 100%;
+  background-color: white;
+  height: 100vh;
+  padding: 2rem;
+  position: relative;
+}
+
+.employee_description {
+  font-family: "Frutiger Neue LT Light";
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 100;  
+}
+
+.slide {
+  width: 100vw;
+  padding: 0 15vw 2rem 15vw;
+}
+
+.employee_image {
+  width: 100%;
+  height: auto;
+}
+
+.employee_image.top {
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  animation-name: cf3FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 6s;
+  animation-direction: alternate;
+}
+
+.employee_image.bottom {
+  position: absolute;
+  padding: inherit;
+  left: 0;
+  top: 0;
+  width: calc(100% - 4rem);
+  height: auto;
+}
+
+
+@keyframes cf3FadeInOut {
+  0% {
+    opacity:1;
+  }
+  45% {
+    opacity:1;
+  }
+  55% {
+    opacity:0;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
 .full-height {
   height: 100vh;
 }
@@ -218,16 +306,21 @@ a:active {
 .header {
   font-size: 2rem;
   padding-bottom: 1rem;
-  margin-left: 3rem;
+  margin-left: 15%;
+}
+
+.join-description {
+  margin-left: 15vw;
 }
 
 .join-description > .header {
   margin-left: 0;
 }
 
-.join-description {
+
+/* .join-description {
   margin-left: 4rem;
-}
+} */
 
 .footer {
   display: flex;
